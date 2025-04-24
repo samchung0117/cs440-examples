@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-04-24T17:52:47.981564",
+    "user_id": "123-001",
+    "destination": "123-002",
+    "amount": 100.0,
+    "note": "No IP address recorded"
+  }
+]
