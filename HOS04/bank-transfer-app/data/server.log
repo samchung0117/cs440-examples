@@ -22,3 +22,21 @@
 2025-04-24 17:52:48,145 - INFO - 127.0.0.1 - - [24/Apr/2025 17:52:48] "GET /confirmation/123-001/123-002/100.0/2025-04-24?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
 2025-04-24 17:52:48,256 - INFO - 127.0.0.1 - - [24/Apr/2025 17:52:48] "GET /confirmation/123-001/123-002/100.0/2025-04-24?__debugger__=yes&cmd=resource&f=console.png&s=znotugC8Plb10sMTxGjA HTTP/1.1" 200 -
 2025-04-24 17:52:48,510 - INFO - 127.0.0.1 - - [24/Apr/2025 17:52:48] "GET /confirmation/123-001/123-002/100.0/2025-04-24?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-24 18:01:15,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-24 18:01:15,003 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 18:01:15,004 - INFO -  * Restarting with stat
+2025-04-24 18:01:15,210 - WARNING -  * Debugger is active!
+2025-04-24 18:01:15,211 - INFO -  * Debugger PIN: 576-062-499
+2025-04-24 18:01:21,942 - INFO - Visited Home Page
+2025-04-24 18:01:21,946 - INFO - 127.0.0.1 - - [24/Apr/2025 18:01:21] "GET / HTTP/1.1" 200 -
+2025-04-24 18:01:22,114 - INFO - 127.0.0.1 - - [24/Apr/2025 18:01:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 18:01:36,400 - INFO - 127.0.0.1 - - [24/Apr/2025 18:01:36] "GET /transfer HTTP/1.1" 200 -
+2025-04-24 18:01:36,552 - INFO - 127.0.0.1 - - [24/Apr/2025 18:01:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 18:01:46,154 - INFO - Transfer request from 123-001 to 123-002 for $1000.0 on 2025-04-24
+2025-04-24 18:01:46,154 - WARNING - Transfer failed: insufficient funds
+2025-04-24 18:01:46,154 - INFO - 127.0.0.1 - - [24/Apr/2025 18:01:46] "POST /transfer HTTP/1.1" 200 -
+2025-04-24 18:01:46,206 - INFO - 127.0.0.1 - - [24/Apr/2025 18:01:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 18:01:51,771 - INFO - Visited Home Page
+2025-04-24 18:01:51,771 - INFO - 127.0.0.1 - - [24/Apr/2025 18:01:51] "GET / HTTP/1.1" 200 -
+2025-04-24 18:01:51,975 - INFO - 127.0.0.1 - - [24/Apr/2025 18:01:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
