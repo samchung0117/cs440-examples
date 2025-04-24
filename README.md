@@ -9,3 +9,4 @@
 * incident_ticketing_flask
 ## HOS04
 * bank-transfer-app
+* ieee-walkthrough
