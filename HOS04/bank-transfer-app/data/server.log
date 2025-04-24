@@ -1,0 +1,37 @@
+2025-04-24 19:00:34,306 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-04-24 19:00:34,306 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 19:00:34,307 - INFO -  * Restarting with stat
+2025-04-24 19:00:34,481 - WARNING -  * Debugger is active!
+2025-04-24 19:00:34,482 - INFO -  * Debugger PIN: 576-062-499
+2025-04-24 19:00:37,573 - INFO - Visited Home Page
+2025-04-24 19:00:37,576 - INFO - 127.0.0.1 - - [24/Apr/2025 19:00:37] "GET / HTTP/1.1" 200 -
+2025-04-24 19:00:37,709 - INFO - 127.0.0.1 - - [24/Apr/2025 19:00:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 19:00:46,720 - INFO - 127.0.0.1 - - [24/Apr/2025 19:00:46] "GET /transfer HTTP/1.1" 200 -
+2025-04-24 19:00:46,759 - INFO - 127.0.0.1 - - [24/Apr/2025 19:00:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 19:00:58,081 - INFO - Visited Home Page
+2025-04-24 19:00:58,081 - INFO - 127.0.0.1 - - [24/Apr/2025 19:00:58] "GET / HTTP/1.1" 200 -
+2025-04-24 19:01:35,318 - INFO - 127.0.0.1 - - [24/Apr/2025 19:01:35] "GET /transfer HTTP/1.1" 200 -
+2025-04-24 19:01:35,821 - INFO - 127.0.0.1 - - [24/Apr/2025 19:01:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 19:01:43,837 - INFO - Transfer request from 123-001 to 123-001 for $-0.01 on 2025-04-24
+2025-04-24 19:01:43,840 - WARNING - Transfer failed: same source and destination
+2025-04-24 19:01:43,840 - INFO - 127.0.0.1 - - [24/Apr/2025 19:01:43] "POST /transfer HTTP/1.1" 200 -
+2025-04-24 19:01:43,911 - INFO - 127.0.0.1 - - [24/Apr/2025 19:01:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 19:01:56,716 - INFO - Transfer request from 123-001 to 123-002 for $25.0 on 2025-04-24
+2025-04-24 19:01:56,716 - WARNING - Simulated network failure during transfer
+2025-04-24 19:01:56,717 - INFO - 127.0.0.1 - - [24/Apr/2025 19:01:56] "POST /transfer HTTP/1.1" 200 -
+2025-04-24 19:01:56,759 - INFO - 127.0.0.1 - - [24/Apr/2025 19:01:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 19:02:08,452 - INFO - Transfer request from 123-001 to 123-002 for $25.0 on 2025-04-24
+2025-04-24 19:02:08,453 - INFO - Audit Log Entry: {'timestamp': '2025-04-24T19:02:08.452845', 'user_id': '123-001', 'destination': '123-002', 'amount': 25.0, 'note': 'No IP address recorded'}
+2025-04-24 19:02:08,454 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:08] "[32mPOST /transfer HTTP/1.1[0m" 302 -
+2025-04-24 19:02:08,493 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:08] "GET /confirmation/123-001/123-002/25.0/2025-04-24 HTTP/1.1" 200 -
+2025-04-24 19:02:11,736 - INFO - Visited Home Page
+2025-04-24 19:02:11,737 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:11] "GET / HTTP/1.1" 200 -
+2025-04-24 19:02:12,011 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 19:02:18,214 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:18] "GET /transfer HTTP/1.1" 200 -
+2025-04-24 19:02:18,269 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 19:02:21,246 - INFO - Visited Home Page
+2025-04-24 19:02:21,247 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:21] "GET / HTTP/1.1" 200 -
+2025-04-24 19:02:21,299 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-24 19:02:23,217 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:23] "GET /transfer HTTP/1.1" 200 -
+2025-04-24 19:02:23,272 - INFO - 127.0.0.1 - - [24/Apr/2025 19:02:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
