@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "id": 1,
+        "title": "Empty Task Allowed",
+        "description": "An empyt task is allowed.",
+        "priority": "Low",
+        "type": "Validation",
+        "audit_standard": "CMMI-DEV",
+        "corrective_action": "Add input validation",
+        "status": "Open",
+        "screenshot": ""
+    },
+    {
+        "id": 2,
+        "title": "No Delete Function",
+        "description": "DO not allow a delete function",
+        "priority": "High",
+        "type": "Validation",
+        "audit_standard": "IEEE 1028",
+        "corrective_action": "Add /delete/<id> route.",
+        "status": "Open",
+        "screenshot": ""
+    }
+]
