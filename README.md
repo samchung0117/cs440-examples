@@ -10,3 +10,10 @@
 ## HOS04
 * bank-transfer-app
 * ieee-walkthrough
+## HOS05
+* bug-tracker-app
+* buggy-task-manager
+* fixed-task-manager
+## HOS06
+* testBuiltin.py
+* ieee-walkthrough
