@@ -16,4 +16,6 @@
 * fixed-task-manager
 ## HOS06
 * testBuiltin.py
-* ieee-walkthrough
+* test_first_sample.py
+* bank.py
+* test_bank.py
