@@ -1,0 +1,12 @@
+{
+  "auth_service": {
+    "url": "https://example.com/auth",
+    "health_check": "/ping",
+    "env": "production"
+  },
+  "user_service": {
+    "url": "https://example.com/users",
+    "health_check": "/status",
+    "env": "staging"
+  }
+}
