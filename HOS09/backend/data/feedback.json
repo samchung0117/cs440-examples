@@ -1,0 +1,22 @@
+[
+  {
+    "valuable": [
+      "defect_density",
+      "test_coverage",
+      "mttd"
+    ],
+    "not_valuable": [
+      "detection_rate",
+      "review_efficiency",
+      "checklist_adherence"
+    ],
+    "justification": "Test",
+    "timestamp": "2025-05-29T13:10:31.007Z"
+  },
+  {
+    "valuable": [],
+    "not_valuable": [],
+    "justification": "Test",
+    "timestamp": "2025-05-29T13:11:03.901Z"
+  }
+]
