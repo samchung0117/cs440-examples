@@ -1,0 +1,10 @@
+[
+  {
+    "id": "R004",
+    "description": "Inconsistent unit testing"
+  },
+  {
+    "id": "R006",
+    "description": "Delayed code reviews"
+  }
+]

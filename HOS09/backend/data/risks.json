@@ -16,5 +16,23 @@
     "description": "Developer turnover",
     "likelihood": 1,
     "impact": 2
+  },
+  {
+    "description": "Developer turnover",
+    "id": "R005",
+    "likelihood": 3,
+    "impact": 1
+  },
+  {
+    "description": "Poor documentation in legacy modules",
+    "id": "R008",
+    "likelihood": 3,
+    "impact": 3
+  },
+  {
+    "description": "Dependency on unstable third-party libraries",
+    "id": "R007",
+    "likelihood": 3,
+    "impact": 3
   }
 ]
